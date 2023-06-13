@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .heading_auction{
     padding: 20px;
     font-size: 64px;
@@ -11,3 +12,17 @@
 .card-title{
     font-size: 64px;
 }
+=======
+.auction-title{
+    font-size: 56px;
+    padding: 32px;
+}
+
+.card{
+    max-width: 800px;
+}
+
+.card > img{
+    max-width: 300px;
+}
+>>>>>>> 6df15d4d01775428535e4f5b9bd7f9fb63e69d40
