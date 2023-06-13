@@ -1,0 +1,12 @@
+.auction-title{
+    font-size: 56px;
+    padding: 32px;
+}
+
+.card{
+    max-width: 800px;
+}
+
+.card > img{
+    max-width: 300px;
+}
