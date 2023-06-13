@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: #D5DB92;
+}
+
+.logo{
+    width: 150px;
+    padding: 10px;
+}
+
+.nav-link{
+    color: #111112;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: #2D8B31;
+}
+
+.active{
+    color: #2D8B31;
+}
+
+.carousel-caption > h5{
+    color: white;
+    font-size: 81px;
+}
+
+.carousel-caption > p{
+    color: whitesmoke;
+    font-size: 32px
+}
+
