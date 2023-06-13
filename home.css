@@ -18,6 +18,11 @@ nav{
     color: #111112;
     font-size: 20px;
 }
+
+.nav-link:hover{
+    color: #2D8B31;
+}
+
 .active{
     color: #2D8B31;
 }
