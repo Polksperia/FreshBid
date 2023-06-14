@@ -5,8 +5,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    padding-top: 56px;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
 nav{
     background-color: #D5DB92;
+    padding: 10px;
 }
 
 .logo{
