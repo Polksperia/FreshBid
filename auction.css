@@ -40,3 +40,7 @@ tbody{
 .bidbutton:hover{
     background-color: #ECF39E;
 }
+
+.price{
+    padding: 2px;
+}
