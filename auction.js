@@ -33,6 +33,8 @@ var highestBid = 0;
       if (bid > highestBid) {
         highestBid = bid;
         updateDisplay();
+      }else if(bid <= highestBid){
+        alert("Your bid must be higher than the previous highest bid!");
       }
 
       bidInput.value = '';
@@ -41,4 +43,5 @@ var highestBid = 0;
     function updateDisplay() {
       var highestBidDisplay = document.getElementById('highest-bid');
       highestBidDisplay.textContent = highestBid;
+      alert("Your bid had been successfully input!")
     }
