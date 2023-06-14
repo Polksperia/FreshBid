@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+</style>
+<title>Auction Item</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="./auction.css">
+<link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class = "logo" src="./FreshBid.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="./home.html">Home</a>
+                <a class="nav-link active" href="./OnAuction.html">On Auction</a>
+                <a class="nav-link" href="#">Catalog</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <a href="./OnAuction.html" class="btn return">Return to Auctions</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"><img src="./tomat.jpg" alt="" class="tomat"></div>
+                <div class="col-md-6 d-flex flex-column justify-content-between">
+                    <h2 style="font-size: 56px;">Tomatoes</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, deserunt repellat! Voluptatum facere tempore ex saepe ea reiciendis voluptatem dolore iste accusantium, rerum eius et necessitatibus repellat officiis ipsum corporis!</p>
+                    <div class="price"><h5>Start from: Rp 20.000 for 200 gram</h5></div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Time Left</th>
+                                <th scope="col">Current Bid</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <td><h2 id="timer"></h2></td>
+                            <td><h2 id="highest-bid"></h2 ></td>
+                        </tbody>
+                    </table>
+                    <h3 style="text-align: center;">Your Bid:</h3>
+                   <input type="text" id="bid-input" name="bid" class="input-group-large">
+                   <div class="d-flex justify-content-center"><a onclick="placeBid()" class="btn bidbutton">Bid!</a></div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="./auction.js"></script>
+</body>
+</html>
+
+<!-- some improvement : maybe we can also display the bidder name -->

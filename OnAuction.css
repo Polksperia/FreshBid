@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .heading_auction{
     padding: 20px;
     font-size: 64px;
@@ -11,6 +12,8 @@
 .card-title{
     font-size: 64px;
 }
+=======
+>>>>>>> 07b98a0f306159dd8688f6006f8d46a0fdce737a
 .auction-title{
     font-size: 56px;
     padding: 32px;
@@ -18,8 +21,37 @@
 
 .card{
     max-width: 800px;
+    padding: 20px;
+    border: 2px solid #111112;
+    border-radius: 20px;
+    background-color: #90A955;
 }
 
 .card > img{
     max-width: 300px;
+    padding: 20px;
+    border: 1px solid #111112;
+    border-radius: 10px;
+    background-color: white;
 }
+<<<<<<< HEAD
+=======
+
+.card-title{
+    font-size: 40px;
+    color: #111112;
+    padding: 5px;
+}
+
+.card-text{
+    color: #111112;
+}
+
+.btn{
+    background-color: #D9D9D9;
+}
+.btn:hover{
+    background-color: #ECF39E;
+}
+
+>>>>>>> 07b98a0f306159dd8688f6006f8d46a0fdce737a
